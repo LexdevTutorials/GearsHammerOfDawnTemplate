@@ -12,7 +12,7 @@
 
         struct Input
         {
-            float4 color : COLOR;
+            float4 color;
         };
         
         void vert(inout appdata_full v)
